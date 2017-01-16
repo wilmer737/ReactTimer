@@ -11,7 +11,7 @@ describe('Clock', () => {
         expect(Clock).toExist();
     });
 
-    describe('render', () => {
+    describe('Render', () => {
         it('should render clock to output', () => {
             var clock = TestUtils.renderIntoDocument(<Clock totalSeconds={62} />);
             var $el = $(ReactDOM.findDOMNode(clock));
