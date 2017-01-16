@@ -24,6 +24,7 @@ module.exports = {
         alias: {
             App: 'app/components/App',
             applicationStyles: 'app/styles/app.scss',
+            Nav: 'app/components/Nav.jsx',
         },
         extensions: ['', '.js', '.jsx']
     },
