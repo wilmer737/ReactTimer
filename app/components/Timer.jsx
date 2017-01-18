@@ -7,3 +7,4 @@ var Timer = () => {
 };
 
 module.exports = Timer;
+
